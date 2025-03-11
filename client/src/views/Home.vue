@@ -23,8 +23,8 @@
       <p
         class="horizontal-center absolute bottom-0 pb-4 text-center text-xxs leading-tight text-blue-300"
       >
-        LeagueStats.gg isn't endorsed by Riot Games and doesn't reflect the views or opinions of
-        Riot Games or anyone officially involved in producing or managing Riot Games properties.
+        GGStats isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games
+        or anyone officially involved in producing or managing Riot Games properties.
         <br />Riot Games, and all associated properties are trademarks or registered trademarks of
         Riot Games, Inc.
       </p>
@@ -50,7 +50,7 @@ export default {
 
   metaInfo() {
     return {
-      title: 'LeagueStats.gg',
+      title: 'GGStats',
     }
   },
 }

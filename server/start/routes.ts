@@ -22,7 +22,7 @@ import HealthCheck from '@ioc:Adonis/Core/HealthCheck'
 import Route from '@ioc:Adonis/Core/Route'
 
 Route.get('/', async () => ({
-  hi: 'Hello World from LeagueStats V2 API',
+  hi: 'Hello World from GGStats V2 API',
   uptime: process.uptime(),
 }))
 

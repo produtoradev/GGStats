@@ -8,7 +8,7 @@ axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
 axios.defaults.headers.common['Content-Type'] = 'application/json'
 axios.defaults.baseURL = import.meta.env.DEV
   ? 'http://localhost:3333/'
-  : 'https://api.leaguestats.gg/'
+  : 'https://api-ggstats.is-on.cloud/'
 
 const CancelToken = axios.CancelToken
 const axiosSource = CancelToken.source()
